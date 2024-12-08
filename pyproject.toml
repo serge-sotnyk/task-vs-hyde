@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "task-vs-hyde"
+version = "0.1.0"
+description = "Comparison for task-prefix-embeddings with HyDE approach"
+authors = ["Serge <serge.sotnyk@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+litellm = "^1.52.9"
+llmeasytools = "^0.25"
+nomic = {version = "^3.3.3"}
+gpt4all = {version = "^2.5.0"}
+
+[tool.poetry.group.dev.dependencies]
+pytest-asyncio = "^0.24.0"
+pytest = "^8.3.3"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
