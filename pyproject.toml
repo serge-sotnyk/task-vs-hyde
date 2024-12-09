@@ -13,6 +13,8 @@ litellm = "^1.52.9"
 llmeasytools = "^0.25"
 nomic = {version = "^3.3.3"}
 gpt4all = {version = "^2.5.0"}
+#docling = "^2.8.3"
+#torch = "^2.5.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest-asyncio = "^0.24.0"
