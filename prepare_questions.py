@@ -1,8 +1,10 @@
 from pathlib import Path
 import yaml
+from tqdm import tqdm
 from yaml.representer import Representer
 
-from task_vs_hyde.ds import DatasetItem
+from task_vs_hyde.ds import DatasetItem, QAPair
+from task_vs_hyde.ds.prepare import prepare_qa_pairs
 from task_vs_hyde.utils.splitters import ParagraphSplitter
 
 ds_root = Path(__file__).parent / "ds" / "manuals"
@@ -67,6 +69,12 @@ def main():
         doc_fragments = prepare_fragments(md)
         fragments += doc_fragments
         print(f"Doc split on {len(doc_fragments)} fragments.")
+
+    print(f"Total fragments: {len(fragments)}")
+    print("Starting question generation...")
+
+    for frag in tqdm(fragments):
+        frag.qa_pairs = prepare_qa_pairs(frag)
 
     output_path = ds_root / "manuals_ds.yaml"
     store_fragments_yaml(fragments, output_path)
