@@ -46,7 +46,7 @@ Output format:
 """.strip()
 
 
-def prepare_qa_pairs(item: DatasetItem) -> list[QAPair]:
+def prepare_qa_pairs(item: DatasetItem, retries: int = 4, log_file: str = "qa_errors.log") -> list[QAPair]:
     messages = [
         system("You are a core of a service that answers questions from technical manuals"),
         user(prompt.replace('{fragment}', item.text)),
@@ -54,19 +54,36 @@ def prepare_qa_pairs(item: DatasetItem) -> list[QAPair]:
 
     model = os.environ.get("QA_MODEL", "gemini/gemini-2.0-flash-exp")
 
-    response = litellm.completion(
-        messages=messages,
-        model=model,
-        response_format={"type": "json_object"},
-        temperature=0.5,
-        num_retries=5,
-    )
+    for attempt in range(retries):
+        try:
+            response = litellm.completion(
+                messages=messages,
+                model=model,
+                response_format={"type": "json_object"},
+                temperature=0.5,
+                num_retries=5,
+            )
 
-    json_in_str = response.choices[0].message.content
-    qa_pairs = json.loads(json_in_str)
-    res = []
+            json_in_str = response.choices[0].message.content
+            res = []
+            try:
+                qa_pairs = json.loads(json_in_str)
+                for qa_pair in qa_pairs:
+                    res.append(QAPair(question=qa_pair["question"], answer=qa_pair["answer"]))
+                return res
+            except json.JSONDecodeError as e:
+                with open(log_file, "a", encoding="utf-8") as log:
+                    log.write(f"JSONDecodeError on attempt {attempt + 1}: {e}\n")
+                    log.write(
+                        f"Response content: {json_in_str if 'json_in_str' in locals() else 'N/A'}\n")
+                print(f"JSONDecodeError on attempt {attempt + 1}: {e}")
+                print(f"Details in {log_file}")
 
-    for qa_pair in qa_pairs:
-        res.append(QAPair(question=qa_pair["question"], answer=qa_pair["answer"]))
+        except Exception as e:
+            with open(log_file, "a", encoding="utf-8") as log:
+                log.write(f"Unexpected error on attempt {attempt + 1}: {e}\n")
+            print(f"Unexpected error on attempt {attempt + 1}: {e}")
 
-    return res
+    with open(log_file, "a", encoding="utf-8") as log:
+        log.write(f"Failed to generate QA pairs after {retries} attempts.\n")
+    return []
