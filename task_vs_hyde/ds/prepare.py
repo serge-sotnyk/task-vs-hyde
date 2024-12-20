@@ -27,7 +27,8 @@ Using only the information from this fragment:
    - A third could address necessary conditions or dependencies that are implicitly mentioned.
 4. Provide a clear and concise answer to each question based on the fragment.
 5. You can return less than 5 questions/answers if the fragment doesn't contain enough information 
-   to generate more.
+   to generate more (for example, if the fragment is too short, or consists from TOC or 
+   references).
 
 Output format:
 

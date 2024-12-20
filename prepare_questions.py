@@ -1,14 +1,16 @@
 from pathlib import Path
+
 import yaml
 from tqdm import tqdm
 from yaml.representer import Representer
 
-from task_vs_hyde.ds import DatasetItem, QAPair
+from task_vs_hyde.ds import DatasetItem
 from task_vs_hyde.ds.prepare import prepare_qa_pairs
 from task_vs_hyde.utils.splitters import ParagraphSplitter
 
 ds_root = Path(__file__).parent / "ds" / "manuals"
 mds_root = ds_root / "mds"
+frags_root = ds_root / "frags"
 
 
 def get_good_files() -> list[Path]:
@@ -25,7 +27,7 @@ def prepare_fragments(md: Path) -> list[DatasetItem]:
     for frag in splitter.split(md_text):
         res.append(
             DatasetItem(
-                doc_name=md.name,
+                doc_name=md.stem,
                 text=frag.text,
                 offset=frag.offset,
             ))
@@ -33,6 +35,9 @@ def prepare_fragments(md: Path) -> list[DatasetItem]:
 
 
 def store_fragments_yaml(fragments: list[DatasetItem], output_path: Path):
+    output_dir = output_path.parent
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     class LiteralString(str):
         pass
 
@@ -48,7 +53,8 @@ def store_fragments_yaml(fragments: list[DatasetItem], output_path: Path):
                 {
                     "doc_name": frag.doc_name,
                     "offset": frag.offset,
-                    "qa_pairs": [{"question": qa.question, "answer": qa.answer} for qa in frag.qa_pairs],
+                    "qa_pairs": [{"question": qa.question, "answer": qa.answer} for qa in
+                                 frag.qa_pairs],
                     "text": LiteralString(frag.text.replace("\r\n", "\n")),
                     # Normalize line endings
                 }
@@ -69,16 +75,15 @@ def main():
         doc_fragments = prepare_fragments(md)
         fragments += doc_fragments
         print(f"Doc split on {len(doc_fragments)} fragments.")
+        print("Starting question generation...")
+        for frag in tqdm(fragments):
+            frag.qa_pairs = prepare_qa_pairs(frag)
+        print(f"Q/A pairs generated: {sum(len(f.qa_pairs) for f in fragments)}")
+        output_path = frags_root / (md.stem + ".yaml")
+        store_fragments_yaml(doc_fragments, output_path)
+        print(f"Fragments stored in {output_path}")
 
     print(f"Total fragments: {len(fragments)}")
-    print("Starting question generation...")
-
-    for frag in tqdm(fragments):
-        frag.qa_pairs = prepare_qa_pairs(frag)
-
-    output_path = ds_root / "manuals_ds.yaml"
-    store_fragments_yaml(fragments, output_path)
-    print(f"Fragments stored in {output_path}")
 
 
 if __name__ == "__main__":
