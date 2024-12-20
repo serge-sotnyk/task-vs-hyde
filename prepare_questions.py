@@ -48,7 +48,7 @@ def store_fragments_yaml(fragments: list[DatasetItem], output_path: Path):
                 {
                     "doc_name": frag.doc_name,
                     "offset": frag.offset,
-                    "qa_pairs": frag.qa_pairs,
+                    "qa_pairs": [{"question": qa.question, "answer": qa.answer} for qa in frag.qa_pairs],
                     "text": LiteralString(frag.text.replace("\r\n", "\n")),
                     # Normalize line endings
                 }
