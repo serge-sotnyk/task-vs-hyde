@@ -1,22 +1,20 @@
 - doc_name: df8308
   offset: 0
   qa_pairs:
-  - answer: The K5242 is a multifunctional LCD display for bicycles that shows battery
-      capacity, speed, distance, and error codes, among other things.
-    question: What is the purpose of the K5242 device?
-  - answer: There are 5 buttons on the K5242 display.
-    question: How many buttons are present on the K5242 display?
-  - answer: Users should avoid releasing the connector when the battery is powered
-      on.
-    question: What should users avoid doing when the battery is powered on?
-  - answer: The K5242 provides both single trip distance and total distance (ODO)
-      measurements.
-    question: What kind of distance measurements does the K5242 provide?
-  - answer: The settings that can be adjusted include backlight, wheel size, speed
-      limit, display units, speed sensor magnetic stone number, zero start, driver
-      mode, PAS power sensitivity, PAS power start strength, controller current limit,
-      and PAS magnetic number.
-    question: Besides the normal display content, what settings can be adjusted?
+  - answer: Do not attempt to release the connector when the battery is on.
+    question: What should you avoid doing when the battery is powered on?
+  - answer: It provides battery capacity indication, speed indication, distance display,
+      walk assist, backlight setting, error code indication, and various parameter
+      settings.
+    question: What are some of the functions the K5242 display provides?
+  - answer: Do not split the waterproof sticker.
+    question: What should you avoid doing to maintain the waterproof performance of
+      the device?
+  - answer: It also provides ODO display.
+    question: Besides the single trip distance, what other distance information is
+      provided by the display?
+  - answer: It can be installed on the left or right side of the handlebar.
+    question: Where can the N5 button be installed?
   text: |+
     ## Manualslib.com - Simplified Manuals
 
@@ -136,20 +134,18 @@
 - doc_name: df8308
   offset: 4048
   qa_pairs:
-  - answer: To activate the walk assist mode, press and hold the 'DOWN' button for
-      two seconds.
-    question: What is the procedure to activate the walk assist feature?
-  - answer: The default range of PAS levels is 0-5.
-    question: What is the default range of PAS levels that can be selected?
-  - answer: When the e-bike's electronic control system fails, the display will show
-      an error code, and the e-bike will not be able to continue driving.
-    question: What is the consequence of a malfunction in the e-bike's electronic
-      system?
-  - answer: The password required to access the user settings is 1801.
-    question: What is the password required to access the user settings?
+  - answer: The display should be repaired.
+    question: What should I do if an error code appears on the display?
+  - answer: Long press the 'MODE' button.
+    question: How do I turn on the e-bike display?
+  - answer: Press and hold the 'DOWN' button for 2 seconds.
+    question: How do I activate the walk assist mode?
   - answer: When the speed is zero, press the 'mode' and 'down' buttons simultaneously
-      for 2 seconds to clear the current single trip distance.
-    question: What is the procedure to clear the single trip distance?
+      for 2 seconds.
+    question: How can I reset the single trip distance?
+  - answer: When the speed is zero, press the 'up' button for two seconds and enter
+      the password 1801.
+    question: How do I access the user settings menu?
   text: |+
     Don't modify system parameters to avoid parameters disorder.
 
@@ -272,19 +268,17 @@
 - doc_name: df8308
   offset: 8020
   qa_pairs:
-  - answer: The settable speed limit values are from 8 km/h to 45 km/h, or no speed
-      limit.
-    question: What is the range of values that can be set for the speed limitation?
-  - answer: The backlight brightness can be set to 1, 2, or 3, with 3 being the brightest.
-    question: What are the possible levels of illumination for the backlight, and
-      which is the brightest?
-  - answer: The default setting for the PAS power assist mode is 2, which indicates
-      the coexistence of PAS and throttle modes.
-    question: What is the default setting for the PAS power assist mode?
-  - answer: The controller current limit can be set between 1A and 30A.
-    question: What is the range of the controller current limit that can be configured?
-  - answer: The number of magnets in the PAS disk can be set to 5, 8, or 12.
-    question: What are the options for the number of magnets in the PAS disk?
+  - answer: The speed limit can be set between 8km/h and 45km/h, or to no speed limit.
+    question: What is the range of values available when setting the speed limit?
+  - answer: Use the up and down buttons to select between Km/h and Mile/h.
+    question: How do I change the display unit between metric and imperial?
+  - answer: A zero start setting of '0' means the e-bike will start from a standstill.
+    question: What does a zero start setting of '0' mean for the e-bike?
+  - answer: 0 is PAS assist only, 1 is throttle only, and 2 is both PAS and throttle.
+    question: What do the driver mode settings 0, 1, and 2 represent?
+  - answer: You should set the PAS power sensitivity to 3 for the highest sensitivity.
+    question: If I want the PAS to be very sensitive to my pedaling, what value should
+      I set?
   text: |+
     Speed limit setting. The settable values are: no speed limit, 8km/h-45km/h. Select the required speed limit value through [up] and [down], 99 means no speed limit, and the display defaults to no speed limit. Long press [mode] to save the settings and return to the main interface.
 
@@ -371,19 +365,21 @@
 - doc_name: df8308
   offset: 12037
   qa_pairs:
-  - answer: The USB port is used to provide charging power to a mobile phone.
-    question: What is the purpose of the USB port located beneath the N5 button?
-  - answer: The output current is 500mA.
-    question: What is the output current provided by the USB charging interface?
-  - answer: Press and hold the mode, up, and down keys simultaneously.
-    question: What must be done to initiate mobile phone charging when the display
-      is on?
-  - answer: The warranty period is 24 months from the date the display leaves the
-      factory.
-    question: What is the warranty period for the display from its manufacturing date?
-  - answer: Check if the power sensor cable is in good condition.
-    question: What should be checked if the error code indicates a problem with the
-      PAS sensor?
+  - answer: Connect the phone to the display via the USB port and data cable, then
+      turn on the display. Alternatively, with the display on, press and hold the
+      [mode], [up], and [down] keys simultaneously for a period of time.
+    question: How can I charge my phone using the display's USB port?
+  - answer: The charging process will automatically stop.
+    question: What happens if I unplug my phone while it's charging from the display?
+  - answer: The warranty is 24 months from the date the display leaves the factory.
+    question: What is the warranty period for the display?
+  - answer: No, damage to the shell after the display leaves the factory is not covered
+      by the warranty.
+    question: If my display's shell is scratched after I receive it, is it covered
+      by warranty?
+  - answer: Check the condition of the motor phase cable and its connection to the
+      controller.
+    question: What should I do if the display shows a 'Motor phase failure' error?
   text: |-
     A USB interface with charging function is installed under the N5 button. This interface provides charging power for the mobile phone, and the output current is 500mA. When the display is turned off, connect the data cable of the mobile phone to the display and the mobile phone. After the display is turned on, the mobile phone will display charging; If the display is turned off at this time, the phone will stop charging. When the display is turned on, press and hold the [mode] and [up] keys and the [down] keys at the same time. After pressing and holding for a period of time, the instrument starts to charge the mobile phone. In any state, unplug the phone and the charging will be automatically terminated.
 

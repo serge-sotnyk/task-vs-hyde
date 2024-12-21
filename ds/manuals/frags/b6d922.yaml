@@ -1,21 +1,19 @@
 - doc_name: b6d922
   offset: 0
   qa_pairs:
-  - answer: It is designed to measure surface temperatures from a distance without
-      physical contact.
-    question: What is the intended use of the Etekcity Lasergrip 630?
-  - answer: The device will automatically turn off after 15 seconds of no activity.
-    question: What is the duration the device will automatically shut down after being
-      idle?
-  - answer: The distance-to-spot ratio is 16 to 1.
-    question: What is the ratio between the measurement distance and the spot size?
-  - answer: To switch between ºF and ºC, you need to press and hold the display backlight
-      button for 3 seconds.
-    question: What is the procedure to change the temperature unit between Fahrenheit
-      and Celsius?
-  - answer: Measurements can be inaccurate when exposed to steam, dust, or other airborne
-      contaminants.
-    question: What is a condition that can lead to inaccurate temperature readings?
+  - answer: No, the thermometer cannot measure temperatures of objects behind glass.
+    question: Can the thermometer measure temperatures through glass?
+  - answer: Steam, dust, or other contaminants in the air may cause inaccurate readings.
+    question: What factors might cause inaccurate temperature readings?
+  - answer: Press and hold the display backlight button for 3 seconds to switch between
+      units.
+    question: How do I switch between Fahrenheit and Celsius?
+  - answer: 'Press the backlight button repeatedly to cycle through the different
+      modes: both off, backlight on with laser off, backlight off with laser on, and
+      both on.'
+    question: How do I activate the laser and backlight?
+  - answer: It means the measured temperature is above the measurable range.
+    question: What does 'HI' on the display mean?
   text: |+
     ## Manualslib.com - Simplified Manuals
 
@@ -144,23 +142,20 @@
 - doc_name: b6d922
   offset: 4086
   qa_pairs:
-  - answer: The 'EMS' mode allows the user to modify the emissivity value for different
-      surface materials.
-    question: What is the purpose of the 'EMS' mode on the device?
-  - answer: The battery should be replaced when a low battery icon appears on the
-      LCD display.
-    question: When should the battery of the device be replaced?
-  - answer: The distance to spot size ratio is 16:1.
-    question: What is the ratio between the distance and the spot size for this device?
-  - answer: To measure reflective surfaces accurately, you can either adjust the emissivity
-      value using a reference chart or place a piece of masking tape on the surface
-      and measure the taped section after 30 minutes.
-    question: What should be done to measure the temperature of reflective surfaces
-      with low emissivity accurately?
-  - answer: When in HAL mode, the device will beep continuously if the measured temperature
-      is greater than the set value.
-    question: If the device records a temperature that is higher than a set value,
-      what will occur when in HAL mode?
+  - answer: Replace the battery when a low battery icon appears on the LCD display.
+    question: When should I replace the battery in the Lasergrip?
+  - answer: Use the UP and DOWN buttons when the thermometer is in EMS mode.
+    question: How do I adjust the emissivity setting?
+  - answer: The diameter of the measured area is roughly 1/16th of the distance between
+      the thermometer and the surface.
+    question: What does the distance-to-spot ratio of 16:1 mean?
+  - answer: Adjust the emissivity value or place a strip of masking tape over the
+      surface and measure the tape.
+    question: What should I do if I'm getting inaccurate readings from a reflective
+      surface?
+  - answer: It will beep continuously if a temperature greater than the set value
+      is recorded.
+    question: What does the thermometer do when in HAL mode?
   text: |
     ## Measurement Modes
 
@@ -220,18 +215,16 @@
 - doc_name: b6d922
   offset: 8122
   qa_pairs:
-  - answer: This device produces class 2 laser radiation.
-    question: What kind of radiation does this device produce?
-  - answer: Avoid direct or indirect eye contact with the laser beam and do not view
-      the beam with optical instruments.
-    question: What should you avoid doing with the laser beam to prevent eye damage?
-  - answer: Use a 9V battery when replacing the battery within the device.
-    question: What type of battery should be used when replacing the battery in the
-      device?
-  - answer: Always remove the batteries when cleaning the device.
-    question: What should you do with the batteries when cleaning the device?
-  - answer: Clean the lens using a soft cloth or cotton swab.
-    question: What is the recommended way to clean the lens of the device?
+  - answer: Class 2 laser radiation.
+    question: What type of laser radiation does this device produce?
+  - answer: Avoid direct or indirect eye contact and do not view it with optical instruments.
+    question: What should you avoid doing with the laser beam?
+  - answer: A 9V battery.
+    question: What kind of battery should be used when replacing it in the device?
+  - answer: Always remove the batteries.
+    question: What should be done with the batteries when cleaning the device?
+  - answer: A soft cloth or cotton swab.
+    question: What should be used to clean the lens of the device?
   text: |-
     | Iron          | Oxidized   | 0.7          | Concrete       |             | 0. 95            |
     | Steel         | Oxidized   | 0. 70-0. 90  | Cement         |             | 0. 96            |

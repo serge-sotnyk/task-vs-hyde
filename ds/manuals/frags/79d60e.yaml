@@ -1,23 +1,19 @@
 - doc_name: 79d60e
   offset: 0
   qa_pairs:
-  - answer: The X-Sense device is designed to detect both smoke and carbon monoxide.
-    question: What is the primary function of the X-Sense device described in the
-      manual?
-  - answer: The manual advises to alert small children, leave immediately using a
-      planned escape route, check for smoke around doors, and crawl low under smoke
-      if necessary.
-    question: According to the manual, what is the recommended action if a fire is
-      discovered after the smoke alarm sounds?
-  - answer: The device uses photoelectric technology to detect smoke.
-    question: What kind of technology is utilized by this device to detect smoke?
-  - answer: The package includes 2 carbon monoxide safety stickers.
-    question: What is the quantity of carbon monoxide safety stickers included in
-      the package?
-  - answer: Before opening a door, you should check for smoke seeping around the edges
-      and feel the door with the back of your hand to see if it's hot.
-    question: What should you do before opening a door during a fire if it's part
-      of your escape route?
+  - answer: It uses photoelectric technology.
+    question: What technology does this alarm use to detect smoke?
+  - answer: First, check for fires. If a fire is found, alert children, leave immediately
+      using a planned escape route, and check doors for heat and smoke before opening
+      them.
+    question: What should you do if the smoke alarm sounds?
+  - answer: Locate the alarm away from the kitchen area and use a range hood that
+      vents to the outside.
+    question: What is the best way to prevent nuisance alarms from cooking?
+  - answer: It uses electrochemical sensing technology.
+    question: How does this alarm detect carbon monoxide?
+  - answer: It is odorless, tasteless, and invisible.
+    question: What is a key characteristic of carbon monoxide that makes it dangerous?
   text: |+
     ## Manualslib.com - Simplified Manuals
 
@@ -112,22 +108,22 @@
 - doc_name: 79d60e
   offset: 3933
   qa_pairs:
-  - answer: This device is designed to detect smoke and carbon monoxide.
-    question: What is the main purpose of this device?
-  - answer: The silence duration for smoke is less than 9 minutes.
-    question: What is the duration of the silence feature when the smoke alarm is
-      activated?
-  - answer: After moving to fresh air, you should do a head count and not reenter
-      the premises until emergency services have arrived and the alarm is in its normal
-      state.
-    question: What should you do after moving to fresh air when the carbon monoxide
-      alarm sounds?
-  - answer: The alarm loudness should be greater than 85 dB at 9.84 ft (3 m).
-    question: What is the minimum sound level the alarm should produce?
-  - answer: The best operating ambient temperature is between 40 and 100 degrees Fahrenheit
-      (4.4 to 37.8 degrees Celsius).
-    question: What is the recommended temperature range for optimal operation of the
-      device?
+  - answer: Operate the test/reset button, call emergency services, and move to fresh
+      air.
+    question: What should you do immediately after a carbon monoxide alarm sounds?
+  - answer: If the alarm reactivates within 24 hours after following initial steps.
+    question: Under what circumstances should you call a qualified appliance technician
+      after a CO alarm?
+  - answer: Smoking in bed, leaving children unsupervised, cleaning with flammable
+      liquids, fires where the victim is intimate with a flaming initiated fire, fires
+      where smoke is blocked from the detector, and fast-growing incendiary fires.
+    question: What are some situations where a smoke alarm may not be effective?
+  - answer: One person should leave to call 911, and the other should stay to perform
+      a head count.
+    question: What is the recommended action if a fire occurs and you have reached
+      your meeting place?
+  - answer: Photoelectric for smoke and electrochemical for carbon monoxide.
+    question: What are the two types of sensors used in this alarm?
   text: |+
     *Go to your predetermined meeting place. When two people have arrived, one should leave to call 911 from а neighbor's home, and the other should stay to perform а head count.
 
@@ -190,22 +186,19 @@
 - doc_name: 79d60e
   offset: 7907
   qa_pairs:
-  - answer: The Test & Silence button is used to check the device's electronics and
-      to stop the sound during an alarm.
-    question: What is the primary function of the Test & Silence button?
-  - answer: The LCD display deactivates automatically after 5 minutes of inactivity.
-    question: How long does the device wait before automatically deactivating the
-      LCD display?
-  - answer: The silence period for a CO alarm is 6 minutes. If the CO level remains
-      above the alarm threshold after 6 minutes, the alarm will sound again.
-    question: What is the duration of the silence period in CO alarm mode, and what
-      happens if the CO level remains high?
-  - answer: A low battery is indicated by a yellow LED flash and one beep every 60
-      seconds.
-    question: What visual and auditory signal indicates a low battery condition?
-  - answer: The device indicates the end of its life by emitting 2 beeps and flashing
-      the yellow LED twice every 30 seconds.
-    question: How does the device indicate that it has reached its end of life?
+  - answer: Press the test button to wake the unit, then press it again until you
+      hear a short beep.
+    question: How do I initiate a test of the alarm unit?
+  - answer: The unit will enter a silence mode.
+    question: What happens if I press the test button while the alarm is sounding?
+  - answer: If the smoke or CO concentration is still at an alarm level, the silence
+      mode cannot be enabled.
+    question: Under what condition will the silence mode not activate during an alarm?
+  - answer: It indicates a low battery condition.
+    question: What does a yellow flashing LED with a beep every 60 seconds indicate?
+  - answer: It will deliver 2 beeps and the LED indicator will flash yellow twice
+      every 30 seconds.
+    question: What does the alarm do when it reaches the end of its life?
   text: |
     The Test & Silence button is used to test the unit's electronics and to silence the unit during an alarm. When testing the alarm weekly, you should first wake up your alarm bу pressing the test button; once the alarm has woken up, the LCD display will activate, then press the test button again until you hear а short bеер, indicating that the alarm has entered the test mode. То save power, the alarm is designed to automatically turn off the LCD display if there has been no operation for 5 minutes.
 
@@ -248,20 +241,20 @@
 - doc_name: 79d60e
   offset: 11802
   qa_pairs:
-  - answer: The device is a smoke and carbon monoxide alarm.
-    question: What is the purpose of the device described in the text?
-  - answer: The device flashes yellow once every 60 seconds and beeps once every 60
-      seconds.
-    question: How does the device indicate a low battery condition?
-  - answer: The device flashes 2 sets of 3 red flashes followed by 2 sets of 4 red
-      flashes and emits 2 sets of 3 long beeps followed by 2 sets of 4 quick beeps.
-    question: What visual and sound signals are emitted during the test mode?
-  - answer: The alarm signal stops.
-    question: What happens when the concentration of smoke or carbon monoxide drops
-      below the alarm level?
-  - answer: The device flashes yellow 1 or 2 times every 40 seconds and beeps 2 times
-      every 40 seconds.
-    question: What indicates a malfunction of the carbon monoxide sensor?
+  - answer: A smoke alarm is indicated by red flashes and long beeps, while a carbon
+      monoxide alarm is indicated by red flashes and quick beeps.
+    question: What is the difference in the alarm signals for smoke and carbon monoxide?
+  - answer: In test mode, the alarm will flash red in two sets of three followed by
+      two sets of four, and beep in two sets of three long beeps followed by two sets
+      of four quick beeps.
+    question: How does the alarm indicate that it is in test mode?
+  - answer: It indicates a low battery.
+    question: What does it mean when the alarm flashes yellow once every 60 seconds?
+  - answer: A malfunction is indicated by yellow flashes and beeps, the number of
+      flashes and beeps depending on whether it is a smoke or carbon monoxide malfunction.
+    question: What are the possible indications of a malfunction?
+  - answer: The alarm will flash yellow twice and beep twice every 30 seconds.
+    question: How does the alarm signal that it has reached the end of its life?
   text: |
     |              | Flashes red 3 times every 1.5 seconds.                                                                | 3 long beeps every 1.5 seconds.                                                                    | Smoke alarm.                                                                                                  |
     | Alarm mode   | First 4 minutes: flashes red 4 times every 5.8 seconds. After 4 minutes: flashes red 4 times every 60 | First 4 minutes: 4 quick beeps every 5.8 seconds. After 4 minutes: 4 quick beeps every 60 seconds. | СО alarm.                                                                                                     |
@@ -284,23 +277,22 @@
 - doc_name: 79d60e
   offset: 15325
   qa_pairs:
-  - answer: The screen will be backlit blue, the LED indicator will flash red four
-      times every 58 seconds, and after 4 minutes, it will flash red four times per
-      minute. The alarm will also beep with the same frequency as the LED indicator.
-    question: What is the expected behavior of the device when it detects a carbon
-      monoxide concentration between 30 and 999 ppm for an extended duration?
-  - answer: It signifies that the unit has just been powered on.
-    question: What does it signify when the LED indicator flashes red, green, and
-      yellow in sequence?
-  - answer: It indicates that the unit is functioning correctly and the battery is
-      in good condition.
-    question: What is the meaning of a single green LED flash every minute?
-  - answer: The device emits a single short beep when it is powered on.
-    question: Under which circumstances does the device emit a single short beep?
-  - answer: This indicates a low battery warning, and the unit needs to be replaced
-      because the battery is not replaceable.
-    question: What should be done if the LCD display alternates between 'Lb' and the
-      current carbon monoxide level, accompanied by a yellow LED flash every 60 seconds?
+  - answer: It indicates a CO concentration of 30-999 ppm has been detected.
+    question: What does it mean if the alarm's LED indicator flashes red 4 times every
+      58 seconds and the screen is backlit blue?
+  - answer: No, it means the unit is working normally with good battery life.
+    question: If the LED indicator flashes green once every 60 seconds, is there a
+      problem with the unit?
+  - answer: This indicates a dangerous CO concentration has been detected, and you
+      should refer to the instructions for when the alarm sounds.
+    question: What should I do if the alarm beeps and the LED flashes red 4 times
+      per minute?
+  - answer: It's a low battery warning, and the unit needs to be replaced.
+    question: What does it mean if the LCD display alternates between 'Lb' and the
+      current CO level, and the LED flashes yellow every 60 seconds?
+  - answer: It means the unit has just been powered on.
+    question: What does it mean if the LED indicator flashes red, green, and yellow
+      in sequence?
   text: |
     |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     |               | If a CO concentration of 30-999 ppm exists for a certain time period, the screen will be backlit blue, and the LED indicator will flash red 4 times every 58 seconds. After 4 minutes, it will flash red 4 times per minute. | The alarm delivers beeps and the LED indicator will flash with the same frequency. | Dangerous CO concentration has been detected                        | Refer to "If the Smoke/CO Alarm Sounds"                                                                                                                                                                                                  |
@@ -314,17 +306,17 @@
 - doc_name: 79d60e
   offset: 19064
   qa_pairs:
-  - answer: This is a combination smoke and carbon monoxide alarm for home use.
-    question: What is the purpose of this device?
-  - answer: The alarm should be tested once a week.
-    question: How frequently should I test the alarm?
   - answer: It indicates a carbon monoxide malfunction.
-    question: What does it mean if the yellow LED flashes 3 times every 40 seconds?
-  - answer: Replace it immediately.
-    question: What should you do if the alarm is not working correctly?
-  - answer: The silence feature is for convenience, but you should always check your
-      home for a potential problem after any alarm.
-    question: What is the silence feature for?
+    question: What does it mean if the LED indicator flashes yellow 3 times every
+      40 seconds?
+  - answer: The unit has malfunctioned and must be replaced immediately.
+    question: What should I do if the alarm displays 'Err' continuously?
+  - answer: It can also detect carbon monoxide.
+    question: Besides smoke, what else can this alarm detect?
+  - answer: It is for convenience, but it does not correct any underlying problem.
+    question: What is the purpose of the silence feature on the alarm?
+  - answer: It should be tested once a week.
+    question: How often should I test the smoke and carbon monoxide alarm?
   text: |
     | Тhе LED indicator flashes yellow 1 time every 40 seconds.                                                             | seconds.                                                                             | Smoke malfunction.                                              | lf "Err" continues to display, the unit has malfunctioned and must bе replaced immediately. |
     | Тhе LED indicator flashes yellow 2 times every 40 seconds.                                                            | seconds.                                                                             | Smoke malfunction.                                              | lf "Err" continues to display, the unit has malfunctioned and must bе replaced immediately. |
@@ -372,23 +364,21 @@
 - doc_name: 79d60e
   offset: 23075
   qa_pairs:
-  - answer: This device is designed to protect individuals from the acute effects
-      of carbon monoxide exposure and to detect smoke and fire hazards.
-    question: What is the primary function of this device?
-  - answer: When installed on a wall, the alarm should be placed 4-12 inches (10-30
-      cm) below the ceiling.
-    question: If installing on a wall, what is the recommended vertical distance from
-      the ceiling?
-  - answer: Avoid installing the alarm within 3 ft (0.9 m) of high air flow areas,
-      such as forced air ducts, ceiling fans, or ventilating fans.
-    question: What should be considered when choosing the location for the alarm regarding
-      air flow?
-  - answer: When the ceiling is angled, the alarm should be installed within 3 feet
-      (90 cm) of the highest point of the ceiling or wall.
-    question: What is the correct placement of the alarm when the ceiling is angled?
-  - answer: This device is intended for use in ordinary indoor locations of family
-      living units.
-    question: In what type of location is this device intended to be used?
+  - answer: Prioritize bedrooms and walkways, ensuring the alarm is audible from all
+      sleeping areas.
+    question: Where should I prioritize installing alarms in a home?
+  - answer: Install it at least 20 inches away from the corners of the room.
+    question: If I can't install an alarm in the center of the ceiling, what should
+      I do?
+  - answer: It should be 4-12 inches below the ceiling.
+    question: How far below the ceiling should a wall-mounted alarm be placed?
+  - answer: It should be within 3 feet of the highest point of the wall or ceiling,
+      measured horizontally.
+    question: What is the recommended distance for installing an alarm on an angled
+      wall or ceiling?
+  - answer: Avoid garages, kitchens, furnace rooms, bathrooms, and areas near cooking
+      appliances, as well as areas with high airflow or excessive dust.
+    question: What areas should be avoided when installing this alarm?
   text: |
     - 4. THIS PRODUCT IS INTENDED FOR USE IN ORDINARY INDOOR LOCATIONS OF FAMILY LIVING UNITS. IT IS NOT DESIGNED TO MEASURE CO LEVELS IN COMPLIANCE WITH OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION (OSHA) COMMERCIAL OR INDUSTRIAL STANDARDS. INDIVIDUALS WITH MEDICAL CONDITIONS THAT MAY MAKE THEM MORE SENSITIVE TO CARBON MONOXIDE MAY CONSIDER USING WARNING DEVICES WHICH PROVIDE AUDIBLE AND VISUAL SIGNALS FOR CARBON MONOXIDE CONCENTRATIONS UNDER 30 PPM. FOR ADDITIONAL INFORMATION ON CARBON MONOXIDE AND YOUR MEDICAL CONDITION CONTACT YOUR PHYSICIAN.
     - 5. THE REPLACEMENT DATE THAT APPEARS ON THE DEVICE IS THE DATE BEYOND WHICH THE DEVICE MAY NO LONGER DETECT CARBON MONOXIDE ACCURATELY AND SHOULD BE IMMEDIATELY REPLACED.
@@ -457,20 +447,22 @@
 - doc_name: 79d60e
   offset: 26929
   qa_pairs:
-  - answer: The recommended action is to remain calm, follow your family's escape
-      plan, and leave the house immediately without stopping to collect belongings.
-    question: What is the recommended action to take if the alarm is activated?
-  - answer: The alarm unit should be tested once a week.
-    question: How often should the alarm unit be tested to ensure it is working correctly?
-  - answer: The end-of-life signal can be silenced for up to 3 days.
-    question: What is the maximum duration for which the end-of-life signal can be
-      silenced using the Test/Silence button?
-  - answer: The alarm should be cleaned monthly using a soft brush attachment to remove
-      dust and dirt. Detergents or other solvents should not be used.
-    question: What is the recommended procedure for cleaning the alarm?
-  - answer: The alarm should be installed in areas where the temperature is between
-      40°F (4.4 °С) and 100°F (37.8 °С).
-    question: What is the temperature range in which the alarm should be installed?
+  - answer: Stay calm, follow your escape plan, and leave the house quickly without
+      stopping to collect anything.
+    question: What should I do if the alarm sounds?
+  - answer: Use the Test/Silence button, and ensure the unit sounds in an alarm pattern.
+      Do not use open flames or vehicle exhaust.
+    question: How should I test the alarm?
+  - answer: Do not use detergents or solvents, spray aerosols nearby, paint the unit,
+      or disassemble it.
+    question: What should I avoid doing when cleaning the alarm?
+  - answer: Peel back the label, break the plastic guard, and twist the pin or turn
+      the dial to the 'DIS' position.
+    question: What is the procedure for deactivating the alarm at the end of its life?
+  - answer: Avoid areas with drapes blocking sensors, vaulted ceilings, damp or humid
+      areas, direct sunlight, insect-infested areas, extreme temperatures, or high
+      humidity, and near doors or windows.
+    question: Where should I not install the alarm?
   text: |
     - 3. Place the alarm where drapes or other objects will not blосk the sensors. Smoke and СО must be аblе to reach the sensors to accurately detect these conditions. Do not install in peaks of vaulted ceilings, "А" frame ceilings or gabled roofs. Кеер out of damp and humid areas.
     - 4. lnstall at least one (1) foot away from fluorescent lights, as electronic noise may cause nuisance alarms. Do not place in direct sunlight and keep out of insectinfested areas. Extreme temperatures will affect the sensitivity of the smoke/CO alarm. Do not install in areas where the temperature is colder than 40°F (4.4 °С) or hotter than 100°F (37.8 °С), such as garages and unfinished attics. Do not install in areas where the relative humidity (RH) is above 85%. Place away from doors and windows that open to the outside.
@@ -543,17 +535,21 @@
   offset: 30977
   qa_pairs:
   - answer: Open it slowly.
-    question: What is the recommended action if a door feels cool during a fire?
-  - answer: As soon as possible from outside the building.
-    question: When should you contact the fire department after escaping a fire?
-  - answer: Move to fresh air immediately and open doors and windows.
-    question: What should you do if a carbon monoxide alarm activates?
-  - answer: Slight headache, nausea, vomiting, and fatigue.
-    question: What is a common symptom of mild carbon monoxide exposure?
-  - answer: A qualified technician should inspect and clean your heating system, vents,
-      chimney, and flues.
-    question: What should be done annually regarding your heating system to prevent
-      carbon monoxide poisoning?
+    question: What should you do if a door is cool during a fire?
+  - answer: Move to fresh air immediately.
+    question: What is the first step to take if a carbon monoxide alarm sounds?
+  - answer: Malfunctioning gas appliances, vehicles running in a garage, blocked chimneys,
+      portable fuel burning heaters, fireplaces, fuel powered tools, and operating
+      a grill in an enclosed space.
+    question: What are some common sources of carbon monoxide?
+  - answer: Dizziness, fatigue, weakness, headache, nausea, vomiting, sleepiness,
+      and confusion.
+    question: Besides flu-like symptoms, what are other indications of carbon monoxide
+      poisoning?
+  - answer: Leave the doors and windows open and only re-enter when the alarm has
+      stopped.
+    question: What should you do after evacuating a building due to a carbon monoxide
+      alarm?
   text: |-
     - 4. lf а door is cool, open it slowly. Don't open а hot door. Кеер doors and windows closed, unless you must escape through them.
     - 5. Cover your nose and mouth with а cloth (preferably damp).

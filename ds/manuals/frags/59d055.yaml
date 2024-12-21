@@ -1,20 +1,19 @@
 - doc_name: 59d055
   offset: 0
   qa_pairs:
-  - answer: The device is a trail camera used for scouting, primarily by hunters.
-    question: What is the primary function of the Bushnell CELLUCORE 20 device described
-      in the manual?
-  - answer: The camera supports an SD card with a maximum capacity of 32GB.
-    question: What is the maximum storage capacity of the SD card that the camera
-      supports?
-  - answer: Energizer lithium batteries are recommended for the best performance.
-    question: What type of batteries are recommended for optimal performance of the
-      camera?
-  - answer: The available resolutions for still images are 2, 8, and 20 megapixels.
-    question: What are the available resolution options for still images captured
-      by the camera?
-  - answer: The default setting is one photo per trigger event.
-    question: What is the default number of photos taken when the camera is triggered?
+  - answer: Energizer lithium batteries are recommended, though alkaline batteries
+      can be used with shorter battery life. Rechargeable batteries are not recommended.
+    question: What type of batteries are recommended for the trail camera?
+  - answer: The camera supports SD cards up to 32GB.
+    question: What is the maximum SD card capacity supported by the camera?
+  - answer: The default setting is photo mode at 2MP resolution, with a 10 second
+      interval between photos, and medium LED flash power.
+    question: What is the default image capture mode of the camera?
+  - answer: No, full HD video files are stored on the SD card but cannot be transmitted
+      wirelessly due to file size and bandwidth limitations.
+    question: Can I wirelessly transmit full HD video files from the camera?
+  - answer: The available settings are 2, 8, and 20 megapixels.
+    question: What are the available resolution settings for still photos?
   text: |+
     ## Manualslib.com - Simplified Manuals
 
@@ -113,18 +112,20 @@
 - doc_name: 59d055
   offset: 4045
   qa_pairs:
-  - answer: The 'PIR DELAY' setting determines the duration the camera will ignore
-      subsequent triggers after an initial detection, preventing redundant captures.
-    question: What is the purpose of the 'PIR DELAY' setting?
   - answer: The available video resolutions are 1280x720 (720p) and 960x544 (544p).
-    question: What are the available options for video resolution?
+    question: What are the available video resolution options?
   - answer: The maximum video clip length is 20 seconds.
-    question: What is the maximum length of a video clip that can be recorded?
-  - answer: The ideal flash range at night is between 10 and 60 feet from the camera.
-    question: What is the recommended distance range from the camera to the subject
-      at night for optimal flash performance?
-  - answer: The default name assigned to the camera is 'CORE CAM'.
-    question: What is the default name assigned to the camera?
+    question: What is the maximum duration for a video clip?
+  - answer: The PIR delay setting determines how long the camera will ignore additional
+      triggers after an initial detection, preventing redundant images.
+    question: How does the PIR delay setting affect image capture?
+  - answer: The PIR sensor can be set to activate during the day, night, or 24 hours
+      a day.
+    question: What are the different work modes for the camera's PIR sensor?
+  - answer: Avoid aiming the camera at heat sources, tree branches, or brush to prevent
+      false triggers from temperature and motion disturbances.
+    question: What considerations should be made when mounting the camera to avoid
+      false triggers?
   text: |+
     VIDEO SIZE - Selects resolution for video clips. Choice of 1280x720 (720p), or 960x544 (544p).
 
@@ -185,23 +186,20 @@
 - doc_name: 59d055
   offset: 8011
   qa_pairs:
-  - answer: The socket at the back of the camera is for attaching it to a tripod or
-      other mounting accessories.
-    question: What is the purpose of the socket located at the rear of the camera?
-  - answer: The recommended SD card is a SanDisk Class 10 with a maximum capacity
-      of 32GB.
-    question: What is the recommended class and maximum capacity for SD cards to be
-      used with this camera?
-  - answer: The average battery life is approximately 6 months when using lithium
-      AA batteries with default settings.
-    question: What is the expected average duration of battery life when using lithium
-      AA batteries?
-  - answer: To view videos, the user must retrieve the SD card from the camera and
-      insert it into a computer or SD card reader.
-    question: If the user wants to view videos recorded by the camera, what steps
-      should they take?
-  - answer: The tripod socket has a standard 1/4"-20 thread.
-    question: What is the thread size of the tripod socket?
+  - answer: No, only the specified solar panel should be used.
+    question: Can I use any external power source with the camera?
+  - answer: The camera will use the solar panel's battery if it provides adequate
+      voltage, otherwise it will switch to the batteries.
+    question: If I use the solar panel and also have batteries installed, which power
+      source will the camera use?
+  - answer: Videos are saved to the SD card and must be accessed by inserting the
+      card into a computer or SD card reader.
+    question: How can I view videos captured by the camera?
+  - answer: A SanDisk Class 10 SD card up to 32GB is recommended.
+    question: What type of SD card is recommended for use with the camera?
+  - answer: Average battery life is about 6 months using lithium AA batteries on default
+      settings.
+    question: What is the expected battery life of the camera?
   text: |+
     - Using the tripod socket : The camera is equipped with a socket at the back (below the strap brackets) to enable mounting on a tripod or other camera mounting accessories that have a standard 1/4"-20 thread.
 
@@ -316,27 +314,19 @@
 - doc_name: 59d055
   offset: 12087
   qa_pairs:
-  - answer: The warranty for Bushnell products is valid for two years from the purchase
-      date.
-    question: What is the duration of the guarantee period for Bushnell products,
-      starting from the purchase date?
-  - answer: A check or money order for $10.00 should be included to cover the cost
-      of postage and handling.
-    question: If a Bushnell product needs repair under warranty, what monetary amount
-      should be included to cover shipping and processing?
-  - answer: When returning a product for warranty repair, you must include a check
-      or money order for postage and handling, your name, address and daytime phone
-      number, an explanation of the defect, and a copy of your dated proof of purchase.
-    question: Besides the defective product itself, what other items must be included
-      when returning a product for warranty repair?
-  - answer: The warranty does not cover damages caused by misuse, improper handling,
-      installation, or maintenance performed by someone other than a Bushnell Authorized
-      Service Department.
-    question: What kind of damage is not covered by the Bushnell product warranty?
-  - answer: No, accessories such as batteries, SD cards, and straps should not be
-      sent in for repair.
-    question: When sending a Bushnell product for repair, should accessories like
-      batteries and SD cards be included?
+  - answer: Two years from the date of purchase.
+    question: What is the warranty period for Bushnell products?
+  - answer: A check or money order for $10.00, your name, address, phone number, an
+      explanation of the defect, and a copy of your proof of purchase.
+    question: What should I include when returning a product for warranty repair?
+  - answer: You must pay $10.00 for postage and handling.
+    question: What costs are associated with sending a product for repair under warranty?
+  - answer: Damages caused by misuse, improper handling, installation, or maintenance
+      by a non-authorized service department.
+    question: What types of damage are not covered by the warranty?
+  - answer: Accessories such as batteries, SD cards, and straps.
+    question: Besides the product, what items should I exclude when sending in for
+      repair?
   text: |-
     Your Bushnell® product is warranted to be free of defects in materials and workmanship for two years after the date of purchase. In the event of a defect under this warranty, we will, at our option, repair or replace the product, provided that you return the product postage prepaid. This warranty does not cover damages caused by misuse, improper handling, installation, or maintenance provided by someone other than a Bushnell Authorized Service Department.
 
