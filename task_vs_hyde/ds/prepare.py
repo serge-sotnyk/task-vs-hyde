@@ -9,47 +9,39 @@ from task_vs_hyde.utils.messages import system, user
 
 dotenv.load_dotenv(override=True)
 
-prompt = """
-Here is a fragment of a technical manual:
+system_prompt = """
+You are an assistant that generates up to 5 Q&A pairs from a technical manual fragment.
+""".strip()
+
+user_prompt = """
+You are given a fragment of a technical manual enclosed in `<fragment>...</fragment>`.
 
 <fragment>
 {fragment}
 </fragment>
 
-Using only the information from this fragment:
+Using only that fragment:
+1. Extract the key information about procedures, processes, rules, or conditions.
+2. Generate up to 5 natural-sounding Q&A pairs based solely on that information.
+3. Avoid trivial questions or those that merely restate the text (e.g., "What kind of vehicle is this service manual for?" or "Where can I find section X?").
+4. Exclude direct quotes or references to specific sections, pages, or tables.
+5. Formulate non-trivial questions that a technician or reader would genuinely ask in a real-world scenario (e.g., about steps, checks, technical details, conditions, or constraints).
+6. The answer must be concise, correct, and clearly derivable from the fragment.
+7. If the fragment is too short or lacks sufficient data, output fewer (or zero) Q&A pairs.
 
-1. Generate 5 questions/answers whose answers can be unequivocally derived from this fragment.
-2. Do not use direct quotes from the fragment in the questions; instead, paraphrase and use 
-   synonyms to make the questions sound different from the fragment's text.
-3. Ensure the questions are diverse in nature:
-   - One question could be about the functional purpose of the described object or process.
-   - Another could focus on specific steps, numbers, or parameters mentioned in the text.
-   - A third could address necessary conditions or dependencies that are implicitly mentioned.
-4. Provide a clear and concise answer to each question based on the fragment.
-5. You can return less than 5 questions/answers if the fragment doesn't contain enough information 
-   to generate more (for example, if the fragment is too short, or consists from TOC or 
-   references).
-
-Output format:
-
-[
-  {
-    "question": "Question 1",
-    "answer": "Answer 1"
-  },
-  {
-    "question": "Question 2",
-    "answer": "Answer 2"
-  },
-  ...
-]
+Return the Q&A in JSON like:
+[  {    "question": "...",    "answer": "..."  },  ...]
 """.strip()
 
 
-def prepare_qa_pairs(item: DatasetItem, retries: int = 4, log_file: str = "qa_errors.log") -> list[QAPair]:
+def prepare_qa_pairs(
+        item: DatasetItem,
+        retries: int = 4,
+        log_file: str = "qa_errors.log"
+) -> list[QAPair]:
     messages = [
-        system("You are a core of a service that answers questions from technical manuals"),
-        user(prompt.replace('{fragment}', item.text)),
+        system(system_prompt),
+        user(user_prompt.replace('{fragment}', item.text)),
     ]
 
     model = os.environ.get("QA_MODEL", "gemini/gemini-2.0-flash-exp")
