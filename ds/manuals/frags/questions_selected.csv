@@ -1,0 +1,201 @@
+id,question
+4d7955:168306:0,What is the recommended replacement interval for spark plugs when using unleaded fuel?
+4d7955:1106937:4,What is the potential cause of a DTC P0601?
+4d7955:2195272:4,"Besides the joints, what else should be inspected on the propeller shaft?"
+4d7955:905294:1,"If the resistance between the 'BRN' wire terminal of the HO2S-2 connector and the ECM connector is not less than 5 ohms, what could be the problem?"
+4d7955:2733891:4,What is the gear selection when the fail-safe function is active while in the '2' gear mode?
+4d7955:2483294:0,What does it mean if the diagnostic trouble code C1016 is triggered?
+4d7955:109711:3,Why should you avoid touching the electrical terminals of parts that use microcomputers?
+a26f32:261655:1,"If a system has two sub BC controllers, what is the maximum total capacity of connectable indoor units?"
+4d7955:4573832:3,What color is the wire for the parking brake switch?
+4d7955:952109:0,"When checking the ECM connectors, what terminals should be inspected for proper connection?"
+4d7955:878771:4,"What is the action if the ""WHT"" wire is shorted to the ground circuit?"
+4d7955:4545584:0,What does the abbreviation 'CPP' stand for in the context of the wiring?
+4d7955:2617831:1,"During the troubleshooting of DTC C1038, what should you do if the DTC is still detected after substituting a known-good steering angle sensor?"
+4d7955:673652:0,What is the first step when troubleshooting DTCs?
+4d7955:4573832:2,What does 'IF EQPD' mean in the context of this document?
+4d7955:3410581:0,What should I check if the power steering control module's power supply voltage is below 9V for 5 seconds while the engine is running?
+59d055:8011:1,"If I use the solar panel and also have batteries installed, which power source will the camera use?"
+4d7955:1451091:1,"If the fuel pressure is higher than specified in step 1, what is the next step?"
+4d7955:2006767:0,What should be done after checking for intermittent problems and poor connections?
+4d7955:1072278:0,What should I measure the resistance between?
+4d7955:1782806:0,What should be done if the starting motor is running slowly and the battery and wiring are okay?
+4d7955:4409717:1,What is the expected behavior of a driver's airbag module upon deployment?
+4d7955:1642429:2,What is the standard range for crankshaft thrust play?
+4d7955:1763013:1,"If the ignition coil circuits are good, what is the next step?"
+4d7955:2384668:2,What is the first action to take when performing the G sensor check?
+4d7955:5063042:0,What is the first step in checking the power supply circuit?
+4d7955:3795056:3,What should the vehicle speed reading be when the vehicle is stopped with the ignition on?
+4d7955:2126725:1,What is the recommended gear oil for the differential?
+4d7955:1882398:2,What should be checked when inspecting the front wheel bearing?
+4d7955:266740:3,What should be done before removing the thermostat?
+4d7955:3334929:1,What does a steady 'EPS' warning light after the engine starts indicate?
+79d60e:26929:2,What should I avoid doing when cleaning the alarm?
+4d7955:804912:3,"What is the expected voltage range when measuring the ""RED"" wire terminal of the electric throttle body assembly?"
+4d7955:4525315:0,What color wire is used for the Crankshaft Position (CKP) sensor?
+4d7955:1257692:1,What does a 'white' background color indicate during a communication bus check?
+4d7955:4059909:2,What voltage range should I expect when checking the DLC power supply circuit?
+4d7955:845164:1,What should a technician do if the voltage reading is 0 V when measured between the WHT wire terminal of the HO2S-1 connector and the vehicle body ground?
+b6d922:0:3,How do I activate the laser and backlight?
+4d7955:3362688:3,What should be checked before installing the contact coil cable assembly?
+4d7955:1586312:0,"When installing the camshafts, what should be done with the crankshaft?"
+4d7955:4028078:1,"After clearing the DTCs, what verification step is required?"
+4d7955:595691:2,What could be the cause of a DTC P0031 or P0032?
+a26f32:1041438:1,What is the next step if the compressor's insulation resistance is below 1.0 M Ω?
+a26f32:1242647:0,What do the LED indicators LD1 through LD8 on the outdoor unit circuit board represent?
+a26f32:563297:3,Which temperature sensors are associated with a temperature sensor fault?
+4d7955:1566084:0,What should be done to the A/C compressor before lifting the engine?
+4d7955:3893019:2,"If a DTC check indicates an issue, what should be done?"
+a26f32:143725:2,How should the ground terminal and shield be connected?
+4d7955:1420577:0,What should be done before troubleshooting the ECM circuit?
+a26f32:139659:3,Is automatic address setup always available for a single refrigerant system?
+4d7955:4377807:2,What is the tightening torque for the passenger airbag module attaching bolts?
+a26f32:750189:3,"Besides the BC controller, what other component can cause error 6607?"
+4d7955:3434219:3,"If the fuse is not the issue, what specific circuit should be checked for a short to ground?"
+4d7955:4206129:1,What resistance value in the side-air bag circuit triggers DTC B1061 or B1065?
+4d7955:4549651:0,What does the 'IF EQPD' remark mean in the context of the instrument panel harness?
+4d7955:4252598:4,"If a DTC check for B1072 fails, what is the next step?"
+4d7955:3733584:3,"If there is excessive moisture in the A/C system, what action is recommended?"
+4d7955:2319316:1,What happens to the ABS warning light when the ignition is turned on?
+4d7955:3354760:3,What should I do if I find the capsules on the steering column bracket are loose?
+4d7955:4044079:4,What is the next step if the 'Air Bag Diagnostic System Check Flow' was not performed?
+4d7955:2939448:2,What is the first step in the diagnostic troubleshooting process after confirming a DTC?
+4d7955:552385:3,What is a possible mechanical cause of excessive emissions?
+4d7955:5256113:0,What should I check if the indicator light doesn't illuminate during a keyless start?
+4d7955:458034:2,What happens when the crankshaft position sensor circuit fails?
+4d7955:2785278:0,What does it mean when the TCM detects a high voltage on the shift solenoid terminal while commanding it to turn off?
+4d7955:3956863:3,What should I review before servicing the air bag system?
+4d7955:3266320:0,What should be applied to the oil level filler plug?
+4d7955:1614459:4,What should be done if the cylinder bore is very rough or deeply scratched?
+a26f32:1144783:0,What does the display 'LD4' indicate?
+a26f32:1126723:3,How many times does Unit B appear in the table?
+4d7955:1245775:3,What does it mean if the resistance measurements are not infinite during the wire harness check?
+4d7955:4606312:4,What circuits are protected by the 15A fuse associated with the fuel pump relay?
+4d7955:4746683:4,What does the steering angle sensor connect to?
+4d7955:2191181:3,What should be checked if there is an abnormal noise coming from the propeller shaft?
+4d7955:1095339:0,What is the first step when checking the A/C refrigerant pressure sensor signal circuit?
+a26f32:500169:3,What is the model of the BC controller used in the dual unit combination?
+4d7955:4186376:3,"Besides the pretensioner circuit, what else could cause a B1052 or B1056 DTC?"
+4d7955:1549786:0,"When installing the air cleaner outlet hose, what alignment is necessary?"
+a26f32:841286:3,"If there's a DIP switch setting error on the control board, which switches need to be checked?"
+4d7955:2175094:2,What should be done to the bearing before removing it from the reduction driven gear?
+4d7955:1034693:1,"After disconnecting the EVAP canister purge valve, what voltage should be measured?"
+4d7955:3302681:0,What is the tightening torque for the reverse gear shift lever bolt?
+4d7955:775312:0,What is the first action to perform in this procedure?
+a26f32:472310:3,"If I have a main BC controller, how much refrigerant, in ounces, should I add?"
+a26f32:1076127:3,What should be the resistance measurement between terminals R1 and R5 for the rush current protection resistor?
+4d7955:5252467:4,What should be done if the CAN communication circuit is faulty?
+4d7955:4287438:1,"If a side impact sensor circuit is found to be defective, what is the recommended action?"
+a26f32:202832:2,How are outdoor units in the same refrigerant circuit designated?
+4d7955:1323788:1,What is the voltage range for the fuel injector No.2 output when the ignition switch is turned on?
+4d7955:1420577:1,"When measuring voltage, resistance, or pulse signals at the ECM connector, what special tool is needed?"
+4d7955:2146839:2,What should be done before taking a torque measurement on the bevel pinion nut?
+4d7955:2965480:2,What voltage should be measured between terminal C06-11 of the TCM connector and ground?
+4d7955:4505406:1,"Besides general repair, what specific treatments are discussed?"
+a26f32:1064513:1,"If I get an RPM error before startup, what is the recommended action?"
+4d7955:3050937:1,"After connecting the valve body harness connector, what should be done with the TCM connectors?"
+4d7955:4598189:0,What amperage fuse is used for the radiator fan relay #3?
+4d7955:1177500:1,"During the wire harness check, what should be measured after disconnecting the connectors?"
+4d7955:3761335:3,How does the HVAC control module behave when a sunload sensor circuit malfunction is detected with the ignition already on?
+a26f32:896704:4,What is the likely cause if the 'HO' display does not disappear and MELANS is not being used?
+4d7955:4275936:0,What should be done if the 'Air Bag Diagnostic System Check Flow' has not been performed?
+4d7955:4099842:0,"When performing a floor harness circuit check, what connector should be disconnected?"
+4d7955:1578175:0,What should be done before removing the timing chain to avoid damage?
+4d7955:3129234:3,What is the standard resistance range for the pressure control solenoid and TCC solenoid valves?
+a26f32:488369:2,Why might warm air come from indoor units not set to heating mode?
+a26f32:1238608:4,What is the 'Time of error detection 6-2' value?
+4d7955:4138971:4,"When measuring voltage at the L378 connector, what terminals are used?"
+4d7955:3795056:0,What is the approximate voltage of the mode position sensor when the ignition is on and the air flow selector is in the DEF position?
+4d7955:3108941:2,How much fluid is needed to raise the level from LOW HOT to FULL HOT?
+a26f32:159526:0,Can a pair of PAR-30MAAU units be connected?
+a26f32:757883:3,What does it mean when the remote controller displays error code 6607 with the source address being a System Controller?
+4d7955:2653813:1,What is the required condition of the vehicle before starting the sensor calibration using a scan tool?
+4d7955:4658697:1,"If the high beams do not light up at all, what should be checked?"
+4d7955:1087749:2,"After checking the connections, what is the next step?"
+4d7955:2291017:0,What should be done after removing the brake pads?
+4d7955:1099134:1,"If I suspect a faulty A/C refrigerant pressure sensor, what is the next step after checking the sensor?"
+4d7955:4626648:1,"If I'm troubleshooting the rear defogger in a hatchback, how does the vehicle's market affect the wiring?"
+4d7955:1357584:0,What is the color coding of the wire for the immobilizer coil antenna clock signal?
+4d7955:3382796:2,What should be done after performing customer complaint analysis?
+a26f32:615097:1,Under what conditions is preliminary water leakage cancelled when using a drain sensor?
+4d7955:1910691:1,What is the procedure if the wheel hub has excessive thrust play?
+4d7955:3678708:1,What should be done if the evaporator temperature sensor resistance is not within the specified range?
+a26f32:896704:3,What voltage range should be measured at the transmission terminal block of the ME remote controller to indicate a remote controller failure?
+4d7955:4774542:1,"When diagnosing a warning buzzer issue, what is the first thing to check?"
+4d7955:1118680:2,What should be done if the 'Engine and Emission Control System Check' has not been performed?
+4d7955:2958087:1,What is the next step if continuity is indicated during the transmission fluid temperature circuit check?
+4d7955:3544210:0,What special tool is needed to check the pinion torque?
+4d7955:2467742:0,Where are the parts with an asterisk installed on a right-hand steering vehicle?
+4d7955:1146307:1,"During the initial check, what voltage measurement indicates a potential short in the GRN wire?"
+4d7955:1130423:3,What measurement should be taken when checking the throttle actuator circuit?
+4d7955:3725881:0,"If the A/C is not blowing cool air and the blower motor isn't working, what is the first thing I should check?"
+4d7955:377496:3,What should I do if I cannot communicate with the ECM?
+a26f32:674960:4,What checks are recommended if error code 4255 is related to the fan board?
+a26f32:56123:2,What contaminants should be avoided inside refrigerant pipes?
+4d7955:1185364:1,"After connecting the scan tool, what is the next step in the DTC confirmation procedure?"
+4d7955:2463830:3,What other control modules does the ESP control module communicate with?
+4d7955:3234232:1,"If a fastener's tightening torque isn't listed in this section, where should I look?"
+4d7955:4150785:2,What action is required if the SDM connector connections are okay?
+4d7955:3362688:2,How should the contact coil be centered?
+4d7955:69343:1,What kind of diagnostic checks are performed on the body electrical control system?
+4d7955:2816137:3,What are the states of the '3' position switch when the ignition is on and the shift lever is moved?
+4d7955:4357743:4,What is the next step after checking the contact coil circuit?
+4d7955:1408895:4,What is the next step if the voltage between terminal E01-29 and body ground is not between 10 and 14 volts?
+4d7955:751607:0,What is the first step when checking the engine coolant temperature?
+a26f32:555196:2,"If the system displays error code 1500, what is the most likely cause?"
+4d7955:4842762:0,What should I do if the driver's side window doesn't auto-up or auto-down?
+4d7955:4806657:4,What is the first step when removing the audio unit?
+a26f32:1060751:4,"What does it mean if there is no unbalanced voltage in the wiring and after 30 seconds, detail code 132 is produced?"
+4d7955:5086883:4,What is the expected voltage range on the serial communication line of the data link connector for the ABS control module (E04-9) when the ignition is ON?
+a26f32:28479:2,What precautions should be taken when brazing refrigerant pipes?
+4d7955:4389894:2,What is the torque specification for the side impact sensor mounting bolt?
+4d7955:3493826:2,What action should be taken if the voltage is less than 10V during the power supply circuit check?
+4d7955:623421:1,"If the resistance is infinite when checking the MAF and IAT sensor circuit, what could be the issue?"
+4d7955:4190048:3,What should be done if the DTC is still indicated after checking?
+4d7955:3964723:0,What should be done with the seat belt pretensioner if any issues are found?
+4d7955:4934766:4,What is the tightening torque for the sun visor screw?
+4d7955:2207401:2,What should be done before removing the wheel cylinder?
+a26f32:76099:2,What can happen if water contaminates the refrigerating machine oil?
+4d7955:5103117:2,"If the driver's side key cylinder is turned to lock twice within 3 seconds, what voltage should be present at the door lock actuator control (dead lock) terminal?"
+4d7955:1574129:0,What should be done before installing the timing chain cover?
+4d7955:4822719:2,What is the specified torque for the windshield wiper arm nuts?
+4d7955:53055:2,Are there different fuse box layouts for vehicles depending on the region?
+4d7955:3058712:1,"During troubleshooting of the '3' position switch circuit, what should be checked after connecting the scan tool and turning the ignition on?"
+4d7955:1743195:0,"When draining fuel from the tank, what tool should be used and where should it be inserted?"
+4d7955:1447175:1,What does it mean if the resistance between the PNK wire terminal and vehicle ground is infinite?
+4d7955:2645906:4,What is the procedure for checking the connection to the ESP control module?
+4d7955:4107996:2,What is the next step after clearing DTCs?
+4d7955:4445496:0,Are there differences in the power door lock circuit depending on the region?
+4d7955:2335476:4,What is the final verification step after clearing DTCs?
+4d7955:4662578:2,What should be done if the headlights remain on even when the engine is off and the lighting switch is in the OFF position?
+4d7955:2991253:2,"During the DTC confirmation procedure, what gear should the vehicle be in when checking the lock-up condition?"
+4d7955:1195623:0,What should be done if the wire harness check in step 6 fails?
+4d7955:2250954:1,"If tires on the same axle are unmatched, what should be done?"
+a26f32:1115887:0,What happens to the lamp associated with a unit that experiences an abnormal stop?
+4d7955:552385:0,What could cause excessive hydrocarbon or carbon monoxide emissions?
+4d7955:1345998:4,How does the duty ratio of the heated oxygen sensor-1 heater output signal change?
+4d7955:2207401:0,What should be done after removing the rear brake drum?
+4d7955:4334215:3,What is the first step in troubleshooting a DTC B1364 or B1368?
+4d7955:2958087:2,What could be the cause if the transmission fluid temperature sensor circuit shows an intermittent issue?
+a26f32:579367:2,What does error code 6832 signify?
+4d7955:4569814:4,What is the color of the wire connecting to the instrument panel antenna?
+a26f32:667345:1,What is the first thing to check if there is a THHS failure?
+4d7955:730885:0,What should you do if the voltage between the ECM connector 'C01-24' terminal and the vehicle body ground is not correct?
+4d7955:1910691:4,What is the torque specification for the wheel speed sensor bolt?
+4d7955:827992:3,"What are the possible causes if the ""ORN"" wire shows an issue?"
+4d7955:734907:4,"When checking the ECT sensor connection, which wire terminals should be inspected?"
+4d7955:584363:3,What should I do if the 'VVT GAP' reading is not within the specified range?
+a26f32:403832:1,What is the purpose of refrigerant recovery during heating operation?
+4d7955:576361:0,"When checking for a short to ground in the oil control valve circuit, what resistance measurement indicates a problem?"
+4d7955:5135180:2,What should I do if the immobilizer indicator light stays on after starting the engine?
+4d7955:4095760:0,"After disconnecting the 'G347' connector, what tools are needed to reconnect it?"
+4d7955:3536297:1,"When replacing a tie-rod, what measurement from the old tie-rod should be used on the new one?"
+a26f32:930829:0,What should be checked if the indoor unit piping temperature sensor is reporting a higher temperature than actual?
+4d7955:3532249:4,What type of grease should be applied to the inside of the boot?
+a26f32:111700:3,How is the address of an auxiliary BC controller determined?
+4d7955:2030585:1,"If oil is leaking from the rear differential, what is one of the first things to check?"
+4d7955:1299623:2,"If the CAN circuit tests are good, what does that indicate?"
+4d7955:1306259:2,What should be checked regarding the TCM after checking CAN communication?
+4d7955:1983352:4,When will the 4WD AUTO indicator be off?
+4d7955:3783704:0,What is the range of the sun load?
+4d7955:469716:2,What is the expected range for the intake manifold absolute pressure at 2500 RPM with no load after warm up?
